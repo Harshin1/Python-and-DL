@@ -1,0 +1,5 @@
+sentence = input("Please enter the sentence: ")
+numbers = sum(c.isdigit() for c in sentence)
+letters = sum(c.isalpha() for c in sentence)
+print('letters: ',letters)
+print('digits', numbers)
