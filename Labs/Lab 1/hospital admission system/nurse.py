@@ -5,15 +5,19 @@ class Nurse(object):
         Nurse.nurseEmp += 1
         self.setNurseId(Nurse.nurseEmp)
 
+    # return Nurse details
     def getNurseName(self):
         return "Nurse XYZ"
 
+    # change Nurse for a patient
     def setNurseName(self,name):
         self.nurseName = name
 
+    # get Nurse ID
     def getNurseId(self):
         return self.__nurseId
 
+    # assign an ID to nurse
     def setNurseId(self, val):
         self.__nurseId = val
 

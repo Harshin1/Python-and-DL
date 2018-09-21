@@ -5,6 +5,7 @@ class Book(Patient):
     def __init__(self):
         self.getDetails();
 
+    # collect Patient details
     def getDetails(self):
         self.name = input('Enter Patient name: ')
         self.age = input('Enter Patient Age: ')
@@ -12,6 +13,7 @@ class Book(Patient):
         Patient.__init__(self,self.name,self.age,self.disease)
         self.getDoctorDetails()
 
+    #get Doctor details
     def getDoctorDetails(self):
         doc = Doctor()
         print('Your details are saved')

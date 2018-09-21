@@ -2,6 +2,7 @@ class Clerk(object):
     def __init__(self):
         self.clerkName = self.getclerkName()
 
+    # assign the clerk
     def getClerkName(self):
         return "Clerk PQR"
 
